@@ -12,7 +12,7 @@ LEFT JOIN
     Salaries s on e.EmployeeID = s.EmployeeID
 
 GROUP BY 
-	e.EmployeeID,
+    e.EmployeeID,
     e.FirstName,
     e.LastName,
     d.DepartmentName;
